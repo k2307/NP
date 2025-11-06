@@ -40,8 +40,6 @@ crypto key generate rsa
 exit
 copy running-config startup-config
 
-
-
 ##SWITCH###
 
 enable
@@ -80,7 +78,6 @@ crypto key generate rsa
 int range f0/1 - 4, f0/7 - 24, g0/1 - 2
 description Unused switch ports
 shutdown
-
 end
 copy running-config startup-config
 
@@ -93,5 +90,4 @@ IPv4 Default Gateway	192.168.10.1
 PC-B Network Configuration
 IPv4 Address	192.168.10.190
 Subnet Mask	255.255.255.192
-
 IPv4 Default Gateway	192.168.10.129
